@@ -8,9 +8,15 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <WhoAmI></WhoAmI>
-      <TextAboutMe></TextAboutMe>
+    <main className="flex flex-col items-center justify-between">
+      <div className="flex min-h-screen flex-col sm:flex-row items-center">
+        <div className="flex-1 font-mono py-4">
+          <WhoAmI></WhoAmI>
+        </div>
+        <div className="flex-1">
+          <TextAboutMe></TextAboutMe>
+        </div>
+      </div>
       <div className="w-full">
         <UpwardsWave></UpwardsWave>
         <div className="bg-blue-500">
