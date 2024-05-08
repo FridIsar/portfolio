@@ -10,8 +10,8 @@ function WhoAmI() {
         <p className="text-center">Technical consultant - Software engineer</p>
         <p className="text-center"><FontAwesomeIcon icon={faLocationDot}/>&nbsp;Barcelona</p>
         <p className="text-center">
-          <a className="mx-2 text-slate-900 hover:text-slate-700" href="#"><FontAwesomeIcon icon={faGithub}/></a>
-          <a className="mx-2 text-slate-900 hover:text-slate-700" href="#"><FontAwesomeIcon icon={faLinkedin}/></a>
+          <a className="text-2xl mx-2 text-slate-900 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white" href="#"><FontAwesomeIcon icon={faGithub}/></a>
+          <a className="text-2xl mx-2 text-slate-900 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white" href="#"><FontAwesomeIcon icon={faLinkedin}/></a>
         </p>
       </div>
     );

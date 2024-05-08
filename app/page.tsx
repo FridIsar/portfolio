@@ -17,14 +17,14 @@ export default function Home() {
           <TextAboutMe></TextAboutMe>
         </div>
       </div>
-      <div className="w-full">
+{/*       <div className="w-full">
         <UpwardsWave></UpwardsWave>
         <div className="bg-blue-500">
           <Experience></Experience>
         </div>
         <DownwardsWave></DownwardsWave>
       </div>
-      <Projects></Projects>
+      <Projects></Projects> */}
     </main>
   );
 }
