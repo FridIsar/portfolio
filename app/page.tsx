@@ -9,7 +9,7 @@ import Projects from "@/components/Projects";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
-      <div className="flex min-h-screen flex-col sm:flex-row items-center">
+      <div className="flex min-h-screen flex-col lg:flex-row items-center">
         <div className="flex-1 font-mono py-4">
           <WhoAmI></WhoAmI>
         </div>
